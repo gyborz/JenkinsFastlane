@@ -27,5 +27,12 @@ class UserViewModelTests: XCTestCase {
         XCTAssertEqual(20, userViewModel.age)
         XCTAssertEqual("Chef", userViewModel.profession)
     }
+    
+    func testUserViewModelDescription() {
+        let description = "User Jason is 20 years old and his/her profession is Chef"
+        
+        XCTAssertNotNil(userViewModel)
+        XCTAssertEqual(description, userViewModel.description)
+    }
 
 }
