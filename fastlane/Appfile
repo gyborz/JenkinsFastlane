@@ -1,0 +1,7 @@
+app_identifier "com.gyorgyborz.JenkinsFastlane" # The bundle identifier of your app
+apple_id "borzgy95@icloud.com" # Your Apple email address
+team_id "62RRN86UA9"
+
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
